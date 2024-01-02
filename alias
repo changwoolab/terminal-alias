@@ -1,0 +1,29 @@
+## React Native
+alias rnios='nvm use && npm run ios -- --simulator="iPhone 14 Pro"'
+alias rnaos='nvm use && npm run android'
+
+## React Native Build
+alias buildaos='npx react-native build-android --mode=releasestaging'
+
+## React Native Install
+alias podci='nvm use && npm run ios:pod:clean-install:m1'
+alias stagingaos='nvm use && npx react-native run-android --variant=releasestaging'
+alias stagingios='nvm use && npx react-native run-ios --configuration releasestaging'
+alias rntest='nvm use && npm run test -- --watch'
+
+
+## React Native Debug
+alias anddev='adb shell input keyevent 82'
+
+
+## npm
+alias ni='nvm use && npm install'
+alias nci='nvm use && npm ci'
+
+## arch
+alias intel='arch -x86_64'
+
+## git
+alias ga='git add'
+alias gc='git commit -m'
+alias gp='git push'
